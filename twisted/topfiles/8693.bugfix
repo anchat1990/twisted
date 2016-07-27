@@ -1,0 +1,1 @@
+Reduced buffersize to 2^14 bytes in _write method of twisted.protocols.tls so as to avoid exceeding the maximum TLS payload.
