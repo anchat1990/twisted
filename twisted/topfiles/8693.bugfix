@@ -1,0 +1,1 @@
+Reduced buffersize for writing of a string to 2^14 bytes so as to avoid exceeding the maximum TLS payload.
